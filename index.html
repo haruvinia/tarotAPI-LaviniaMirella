@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartas de Tarot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1> Cartas de Tarot</h1>
+    <div id="filters">
+        <select id="arcanaFilter">
+            <option value="all">Todos</option>
+            <option value="major">Arcano Maior</option>
+            <option value="minor">Arcano Menor</option>
+        </select>
+
+        <select id="suitFilter">
+            <option value="all">Todos os Naipes</option>
+            <option value="cups">Copas</option>
+            <option value="swords">Espadas</option>
+            <option value="wands">Paus</option>
+            <option value="pentacles">Ouros</option>
+        </select>
+
+        <input type="text" id="searchInput" placeholder="Buscar carta...">
+
+        <button id="searchBtn">Buscar</button>
+    </div>
+
+    <p id="counter"></p>
+
+    <div id="cards-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
